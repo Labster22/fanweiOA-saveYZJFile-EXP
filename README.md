@@ -10,12 +10,15 @@
 title="泛微云桥e-Bridge"
 
 # 使用方法
+```shell
 optional arguments:
   -h, --help                    show this help message and exit
   -i IP, --ip IP                单个ip地址
   -l LIST, --list LIST          ip列表 - 批量扫描
   -t TARGET, --target TARGET    访问的目录或文件 - 完整路径
-  
+```
+
+
 # 例子
 ```shell
 python poc.py -i xx.xx.xx.xx
